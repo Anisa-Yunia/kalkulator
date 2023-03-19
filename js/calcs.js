@@ -47,7 +47,7 @@ pangkat.addEventListener("click", function() {
     alert("Maaf yang Anda Input bukan Angka");
   } else {
     hasil.value = Math.pow(parseFloat(angka1.value), parseFloat(angka2.value));
-}
+  }
 });
 function kosong() 
 	{
