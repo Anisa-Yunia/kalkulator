@@ -49,3 +49,10 @@ pangkat.addEventListener("click", function() {
     hasil.value = Math.pow(parseFloat(angka1.value), parseFloat(angka2.value));
 }
 });
+function kosong() 
+	{
+		kalkulator.a.focus
+		kalkulator.a.value=" "
+		kalkulator.b.value=" "
+		kalkulator.hasil.value=" "
+	}
